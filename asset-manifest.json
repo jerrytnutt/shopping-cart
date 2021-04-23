@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.154ddc6a.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.d81c8dad.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.d81c8dad.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.957cda67.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.957cda67.js.map",
+    "static/js/2.ed7edcdc.chunk.js": "/shopping-cart/static/js/2.ed7edcdc.chunk.js",
+    "static/js/2.ed7edcdc.chunk.js.map": "/shopping-cart/static/js/2.ed7edcdc.chunk.js.map",
+    "static/js/3.f1fbf522.chunk.js": "/shopping-cart/static/js/3.f1fbf522.chunk.js",
+    "static/js/3.f1fbf522.chunk.js.map": "/shopping-cart/static/js/3.f1fbf522.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.154ddc6a.chunk.css.map": "/shopping-cart/static/css/main.154ddc6a.chunk.css.map",
+    "static/js/2.ed7edcdc.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.ed7edcdc.chunk.js.LICENSE.txt",
+    "static/media/Deimos.9ffee80c.jpg": "/shopping-cart/static/media/Deimos.9ffee80c.jpg",
+    "static/media/IoMoon.509b359f.jpg": "/shopping-cart/static/media/IoMoon.509b359f.jpg",
+    "static/media/Lapetus.b8c10fba.jpg": "/shopping-cart/static/media/Lapetus.b8c10fba.jpg",
+    "static/media/Mimas.4993d436.jpg": "/shopping-cart/static/media/Mimas.4993d436.jpg",
+    "static/media/callisto.cfa36adb.jpg": "/shopping-cart/static/media/callisto.cfa36adb.jpg",
+    "static/media/charon.b3189bd9.jpg": "/shopping-cart/static/media/charon.b3189bd9.jpg",
+    "static/media/enceladus.219a2e91.jpg": "/shopping-cart/static/media/enceladus.219a2e91.jpg",
+    "static/media/europa.059cb4b4.jpg": "/shopping-cart/static/media/europa.059cb4b4.jpg",
+    "static/media/index.css": "/shopping-cart/static/media/galaxy.279ebde4.jpg",
+    "static/media/ganymede.a2c32793.jpg": "/shopping-cart/static/media/ganymede.a2c32793.jpg",
+    "static/media/phobos.401331b9.jpg": "/shopping-cart/static/media/phobos.401331b9.jpg",
+    "static/media/triton.ebe11a55.jpg": "/shopping-cart/static/media/triton.ebe11a55.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.957cda67.js",
+    "static/js/2.ed7edcdc.chunk.js",
+    "static/css/main.154ddc6a.chunk.css",
+    "static/js/main.d81c8dad.chunk.js"
+  ]
+}
