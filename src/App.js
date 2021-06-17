@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HashRouter, Route, Switch} from 'react-router-dom'
 import './styles/App.scss';
 import Header from './components/header.js'
 import Home from './components/home.js'
@@ -40,7 +40,7 @@ const removeCartItem = (itemArray) => {
 }
 
   return (
-    <Router>
+    <HashRouter basename='/'>
     <div className="App">
       <Header totalQuantity={totalQuantity}/>
       <Switch>
@@ -68,7 +68,7 @@ const removeCartItem = (itemArray) => {
 
       </Switch>
     </div>
-    </Router>
+    </HashRouter>
   );
 }
 export default App;

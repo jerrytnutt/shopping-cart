@@ -76,14 +76,14 @@ $button-blue:rgb(87, 112, 252);
   width: 60%;
   text-align: center;
   font-size: 30px;
-  color: rgb(66, 66, 66);
+  color: #2d2d2e;
   font-weight: bold;
 }
 
 .home h1{
   margin: 0;
   font-family: 'Vidaloka', sans-serif;
-  color: black;
+  color: #2d2d2e;
   font-size: 30px;
 }
 
@@ -248,7 +248,7 @@ $button-blue:rgb(87, 112, 252);
   background-color: white;
   box-shadow: 5px 5px 5px rgb(87, 85, 85);
   padding: 15px;
-  width: 45%;
+  width: 30%;
   border-radius: 15px;
 }
 
@@ -267,8 +267,8 @@ $button-blue:rgb(87, 112, 252);
   @include flex-center;
   flex-wrap: wrap;
   float: right;
-  width: 40%;
 }
+
 .cardText{
   font-family: 'Jost', sans-serif;
   font-weight: bold;
@@ -279,7 +279,7 @@ $button-blue:rgb(87, 112, 252);
 .row .inputArea{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   width: 45%;
 }
 
@@ -299,6 +299,8 @@ $button-blue:rgb(87, 112, 252);
   font-size: 35px;
   position: relative;
   top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .checkout{
