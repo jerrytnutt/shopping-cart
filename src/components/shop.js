@@ -5,8 +5,8 @@ const Shop = (props) => {
 
   const addItemToCart = (item) => {
     item = JSON.parse(item.target.value)
-    item.quantity = 1
-    return props.changeCartArray(item)
+    //item.quantity = 1
+    return props.changeCartArray(item,1)
   }
   return (
     <div className='shopContainer'>

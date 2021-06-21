@@ -12,21 +12,25 @@ function App() {
   const [cartArray, setCartArray] = useState([])
   const [totalQuantity, setTotalQuantity] = useState(0)
   
-  const changeCartArray = (item) => {
+  const changeCartArray = (item,pq) => {
     let index = cartArray.findIndex(x => x.id === item.id)
-
+     console.log(pq)
     if (index !== -1){
       const newArray = [...cartArray];
+      console.log(newArray[index].quantity)
       const newObject = Object.assign({}, cartArray[index]);
-      newObject.quantity = newObject.quantity + item.quantity
+      
+      newObject.quantity = newObject.quantity + pq
+      console.log(newObject.quantity + 5)
       newArray[index] = newObject
       setCartArray(newArray);
-      return setTotalQuantity(totalQuantity + item.quantity)
+      return setTotalQuantity(totalQuantity + pq)
     }
     index = moonArray.findIndex(x => x.id === item.id)
+    item.quantity = pq
     const newArray = cartArray.concat(item)
     setCartArray(newArray)
-    return setTotalQuantity(totalQuantity + item.quantity)
+    return setTotalQuantity(totalQuantity + pq)
 }
 
 const removeCartItem = (itemArray) => {

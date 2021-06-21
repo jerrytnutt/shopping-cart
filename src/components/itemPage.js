@@ -3,14 +3,15 @@ import {moonArray} from './moonList.js'
 import React, {useState} from 'react';
 
 const ItemPage = (props) => {
-    const [purchaseQuantity, setPurchaseQuantity] = useState(1)
+    const [purchaseQuantity, setPurchaseQuantity] = useState(0)
     const {subId} = useParams()
 
     let currentMoon = moonArray[subId - 1]
     
     const addMoonToCart = () => {
-      currentMoon.quantity = purchaseQuantity
-      return props.changeCartArray(currentMoon)
+
+     
+      return props.changeCartArray(currentMoon,parseInt(purchaseQuantity))
     }
 
     const decreasePurchaseQuantity = () => {
@@ -21,8 +22,9 @@ const ItemPage = (props) => {
     }
 
     const handleChange = (e) => {
+      console.log(e.target.value)
       if (isNaN(parseInt(e.target.value))){
-        return setPurchaseQuantity('')
+        return setPurchaseQuantity(0)
       }
       return setPurchaseQuantity(parseInt(e.target.value))
 }
