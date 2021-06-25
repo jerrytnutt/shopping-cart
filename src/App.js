@@ -1,36 +1,34 @@
 import React, {useState} from 'react';
 import {HashRouter, Route, Switch} from 'react-router-dom'
-import './styles/App.scss';
 import Header from './components/header.js'
 import Home from './components/home.js'
 import Shop from './components/shop.js'
 import Cart from './components/cart.js'
 import ItemPage from './components/itemPage.js'
 import {moonArray} from './components/moonList.js'
+import './styles/App.scss';
 
 function App() {
   const [cartArray, setCartArray] = useState([])
   const [totalQuantity, setTotalQuantity] = useState(0)
   
-  const changeCartArray = (item,pq) => {
+  const changeCartArray = (item,newQuantity) => {
     let index = cartArray.findIndex(x => x.id === item.id)
-     console.log(pq)
+     
     if (index !== -1){
       const newArray = [...cartArray];
-      console.log(newArray[index].quantity)
       const newObject = Object.assign({}, cartArray[index]);
       
-      newObject.quantity = newObject.quantity + pq
-      console.log(newObject.quantity + 5)
+      newObject.quantity = newObject.quantity + newQuantity
       newArray[index] = newObject
       setCartArray(newArray);
-      return setTotalQuantity(totalQuantity + pq)
+      return setTotalQuantity(totalQuantity + newQuantity)
     }
     index = moonArray.findIndex(x => x.id === item.id)
-    item.quantity = pq
+    item.quantity = newQuantity
     const newArray = cartArray.concat(item)
     setCartArray(newArray)
-    return setTotalQuantity(totalQuantity + pq)
+    return setTotalQuantity(totalQuantity + newQuantity)
 }
 
 const removeCartItem = (itemArray) => {

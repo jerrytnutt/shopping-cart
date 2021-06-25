@@ -9,8 +9,6 @@ const Cart = (props) => {
   },);
 
   const changeQuantity = (item,incrementer) => {
-    console.log(item.quantity)
-    console.log(incrementer)
     item = JSON.parse(item.target.value)
 
     if (item.quantity === 1 && incrementer === -1){
@@ -20,7 +18,6 @@ const Cart = (props) => {
     return changeTotalPrice()
   } 
     let newObject = Object.assign({}, item);
-    //newObject.quantity = incrementer
     props.changeCartArray(newObject,incrementer)
     return changeTotalPrice()
   }
@@ -55,7 +52,7 @@ const resetShop = () => {
            <div className='inputArea'>
 
              <button value={JSON.stringify(card)} onClick={(e) => changeQuantity (e,-1)}>-</button>
-            <div className='quantityText'>{card.quantity}</div>
+               <div className='quantityText'>{card.quantity}</div>
              <button value={JSON.stringify(card)} onClick={(e) => changeQuantity (e,1)}>+</button>
            </div>
         </div>
@@ -66,9 +63,6 @@ const resetShop = () => {
       
     </div>
           
-         
-     
     );
   }
   export default Cart;
-  
