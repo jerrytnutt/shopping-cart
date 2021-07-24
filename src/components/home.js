@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className='home'>
       <div className='homeContainer'>
-        <h1>Purchase the Land, Sea and possibly the air itself at Natural Satellite Retail</h1>
+        <h1>Purchase some of the the most beautiful roses, tulips and Dahlias</h1>
         
 
         <Link to={`/shop/`} className='text-link'>

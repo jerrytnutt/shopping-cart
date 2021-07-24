@@ -10,7 +10,7 @@ const Header = (props) => {
   
   return (
     <div className='header'>
-      <div className='title'>Natural Satellite Retail</div>
+      <div className='title'>The Little Flower Shop</div>
       <div className='links'>
         <Link to='/' className='text-link'>Home<AiOutlineHome className='cartIcon'/> </Link>
         <Link to="/shop" className='text-link'>Shop<GiPlanetConquest className='cartIcon'/></Link>

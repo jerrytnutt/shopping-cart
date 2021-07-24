@@ -116,22 +116,23 @@ $button-blue:rgb(87, 112, 252);
 
 .product{
   margin: 15px;
-  border-radius: 5px;
-  background-color: rgb(194, 194, 194);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(166, 144, 218);
   @include flex-center;
   font-family: "Jost", "sans-serif";
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .product h3{
-  background-color: rgb(194, 194, 194);
+ 
   color: black;
   margin: 5px;
   text-align: center;
 }
 .product img{
-  height: 250px;
   width: 250px;
+  border-radius: 10px;
 }
 .product p{
   margin: 0px;
