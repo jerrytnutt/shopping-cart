@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.2b8c602d.chunk.css",
-    "main.js": "/shopping-cart/static/js/main.909faba1.chunk.js",
-    "main.js.map": "/shopping-cart/static/js/main.909faba1.chunk.js.map",
+    "main.css": "/shopping-cart/static/css/main.9397f908.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.33d1b20f.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.33d1b20f.chunk.js.map",
     "runtime-main.js": "/shopping-cart/static/js/runtime-main.957cda67.js",
     "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.957cda67.js.map",
     "static/js/2.9d0e7eb5.chunk.js": "/shopping-cart/static/js/2.9d0e7eb5.chunk.js",
@@ -10,25 +10,25 @@
     "static/js/3.f1fbf522.chunk.js": "/shopping-cart/static/js/3.f1fbf522.chunk.js",
     "static/js/3.f1fbf522.chunk.js.map": "/shopping-cart/static/js/3.f1fbf522.chunk.js.map",
     "index.html": "/shopping-cart/index.html",
-    "static/css/main.2b8c602d.chunk.css.map": "/shopping-cart/static/css/main.2b8c602d.chunk.css.map",
+    "static/css/main.9397f908.chunk.css.map": "/shopping-cart/static/css/main.9397f908.chunk.css.map",
     "static/js/2.9d0e7eb5.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.9d0e7eb5.chunk.js.LICENSE.txt",
-    "static/media/Deimos.9ffee80c.jpg": "/shopping-cart/static/media/Deimos.9ffee80c.jpg",
-    "static/media/IoMoon.509b359f.jpg": "/shopping-cart/static/media/IoMoon.509b359f.jpg",
-    "static/media/Lapetus.b8c10fba.jpg": "/shopping-cart/static/media/Lapetus.b8c10fba.jpg",
-    "static/media/Mimas.4993d436.jpg": "/shopping-cart/static/media/Mimas.4993d436.jpg",
-    "static/media/callisto.cfa36adb.jpg": "/shopping-cart/static/media/callisto.cfa36adb.jpg",
-    "static/media/charon.b3189bd9.jpg": "/shopping-cart/static/media/charon.b3189bd9.jpg",
-    "static/media/enceladus.219a2e91.jpg": "/shopping-cart/static/media/enceladus.219a2e91.jpg",
-    "static/media/europa.059cb4b4.jpg": "/shopping-cart/static/media/europa.059cb4b4.jpg",
-    "static/media/index.css": "/shopping-cart/static/media/galaxy.279ebde4.jpg",
-    "static/media/ganymede.a2c32793.jpg": "/shopping-cart/static/media/ganymede.a2c32793.jpg",
-    "static/media/phobos.401331b9.jpg": "/shopping-cart/static/media/phobos.401331b9.jpg",
-    "static/media/triton.ebe11a55.jpg": "/shopping-cart/static/media/triton.ebe11a55.jpg"
+    "static/media/blueHydrangea.251426e6.jpg": "/shopping-cart/static/media/blueHydrangea.251426e6.jpg",
+    "static/media/charmingPinkFlowers.e812fb3f.jpg": "/shopping-cart/static/media/charmingPinkFlowers.e812fb3f.jpg",
+    "static/media/lightYellow.a700b232.jpg": "/shopping-cart/static/media/lightYellow.a700b232.jpg",
+    "static/media/minimalRedTulip.083587a4.jpg": "/shopping-cart/static/media/minimalRedTulip.083587a4.jpg",
+    "static/media/orangeDahlia.e3b0febf.jpg": "/shopping-cart/static/media/orangeDahlia.e3b0febf.jpg",
+    "static/media/orangeRose.66215968.jpg": "/shopping-cart/static/media/orangeRose.66215968.jpg",
+    "static/media/peony.ce5aef48.jpg": "/shopping-cart/static/media/peony.ce5aef48.jpg",
+    "static/media/pinkDaisy.8d95d6d9.jpg": "/shopping-cart/static/media/pinkDaisy.8d95d6d9.jpg",
+    "static/media/pinkRose.20ba4926.jpg": "/shopping-cart/static/media/pinkRose.20ba4926.jpg",
+    "static/media/redDahlia.24c65387.jpg": "/shopping-cart/static/media/redDahlia.24c65387.jpg",
+    "static/media/redLily.53b916e6.jpg": "/shopping-cart/static/media/redLily.53b916e6.jpg",
+    "static/media/whiteBlossom.d7d3ac5b.jpg": "/shopping-cart/static/media/whiteBlossom.d7d3ac5b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.957cda67.js",
     "static/js/2.9d0e7eb5.chunk.js",
-    "static/css/main.2b8c602d.chunk.css",
-    "static/js/main.909faba1.chunk.js"
+    "static/css/main.9397f908.chunk.css",
+    "static/js/main.33d1b20f.chunk.js"
   ]
 }
