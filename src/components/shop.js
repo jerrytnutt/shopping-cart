@@ -1,4 +1,4 @@
-import {moonArray} from './moonList.js'
+import {moonArray} from './flowerList.js'
 import {Link} from 'react-router-dom'
 
 const Shop = (props) => {
@@ -17,7 +17,7 @@ const Shop = (props) => {
            <img src={item.img} alt='new'></img>
            </Link>
 
-           <p>${item.price} - 1mi²</p>
+           <p>${item.price} - One Dozen</p>
            <button className='productButton' value={JSON.stringify(item)} onClick={addItemToCart}>Add to Cart</button>
         </div>
       ) 

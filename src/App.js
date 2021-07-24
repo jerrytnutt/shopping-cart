@@ -5,7 +5,7 @@ import Home from './components/home.js'
 import Shop from './components/shop.js'
 import Cart from './components/cart.js'
 import ItemPage from './components/itemPage.js'
-import {moonArray} from './components/moonList.js'
+import {moonArray} from './components/flowerList.js'
 import './styles/App.scss';
 
 function App() {

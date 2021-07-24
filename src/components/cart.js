@@ -47,7 +47,7 @@ const resetShop = () => {
          </div>
          <div className='cartDescription'>
            <p className='cardText'>{card.name}</p>
-           <p className='cardText'>Qantity:  {card.quantity}mi²</p>
+           <p className='cardText'>Qantity: {card.quantity} - Dozen</p>
            <p className='cardText'>Price: ${card.price * card.quantity}</p>
            <div className='inputArea'>
 

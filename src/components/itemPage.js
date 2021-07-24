@@ -1,5 +1,5 @@
 import {useParams} from 'react-router-dom'
-import {moonArray} from './moonList.js'
+import {moonArray} from './flowerList.js'
 import React, {useState} from 'react';
 
 const ItemPage = (props) => {
@@ -31,9 +31,8 @@ const ItemPage = (props) => {
         </div>
         <div className='description'>
           <h1>{currentMoon.name}</h1>
-          <p>{currentMoon.description}</p>
-          <h4>Satellite of: {currentMoon.planet}</h4>
-          <h4>Surface Area: {currentMoon.sqMiles}mi²</h4>
+          
+          
 
           <div className='inputArea'>
             <button onClick={decreasePurchaseQuantity}>-</button>
